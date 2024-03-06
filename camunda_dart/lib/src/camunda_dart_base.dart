@@ -1,6 +1,9 @@
 // TODO: Put public facing types in this file.
 
+import 'package:openapi/api.dart';
+
 /// Checks if you are awesome. Spoiler: you are.
-class Awesome {
-  bool get isAwesome => true;
+abstract class CamundaDartBase {
+  ExternalTaskApi get externalTaskApi;
+  ProcessDefinitionApi get processDefinitionApi;
 }
