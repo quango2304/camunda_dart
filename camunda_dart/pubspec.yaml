@@ -9,7 +9,9 @@ environment:
 # Add regular dependencies here.
 dependencies:
   openapi:
-    path: ../camunda_dart_client
+    git:
+      url: https://github.com/quango2304/camunda_dart.git
+      path: camunda_dart_client
 
 
 dev_dependencies:
