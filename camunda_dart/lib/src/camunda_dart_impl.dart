@@ -11,4 +11,8 @@ class CamundaDart implements CamundaDartBase {
   ExternalTaskApi get externalTaskApi => ExternalTaskApi(_apiClient);
   @override
   ProcessDefinitionApi get processDefinitionApi => ProcessDefinitionApi(_apiClient);
+  @override
+  SignalApi get signalApi => SignalApi(_apiClient);
+  @override
+  MessageApi get messageApi => MessageApi(_apiClient);
 }
