@@ -1,5 +1,4 @@
 import 'package:camunda_dart/camunda_dart.dart';
-import 'package:openapi/api.dart';
 
 class CamundaDart implements CamundaDartBase {
   final String basePath;

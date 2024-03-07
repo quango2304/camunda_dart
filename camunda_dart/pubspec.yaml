@@ -9,7 +9,7 @@ environment:
 # Add regular dependencies here.
 dependencies:
   openapi:
-    paht: ../camunda_dart_client
+    path: ../camunda_dart_client
 
 
 dev_dependencies:
